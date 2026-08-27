@@ -5,5 +5,5 @@ Each module folder contains that module's assignments,
 one sub folder per assignment.
 
 ## Modules
-- Module0 - Setting up Git Repo
+- Module0 - HTML tutorial
 - Module1 - Introduction to HTML
