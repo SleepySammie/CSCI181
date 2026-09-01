@@ -1,3 +1,11 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: Nobile;
+   src: url('nobile-webfont.woff') format('woff'),
+      url('nobile-webfont.ttf') format('truetype');
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -13,7 +21,14 @@
 
 
 /* Main Structural Styles */
-
+html {
+   background-color: hsl(27, 72%, 72%);
+}
+body {
+   color: rgb(91, 91, 91);
+   background-color: ivory;
+   font-family: Verdana, Geneva, sans-serif;
+}
 
 
 
@@ -26,7 +41,7 @@
 
 
 
-/* Navigation Styles */	
+/* Navigation Styles */
 
 
 
