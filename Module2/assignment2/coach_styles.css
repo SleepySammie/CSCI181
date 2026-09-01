@@ -24,12 +24,26 @@
 html {
    background-color: hsl(27, 72%, 72%);
 }
+
 body {
    color: rgb(91, 91, 91);
    background-color: ivory;
    font-family: Verdana, Geneva, sans-serif;
 }
 
+h1 {
+   font-weight: normal;
+   font-family: Nobile, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.2em;
+   margin: 0px;
+}
+
+body>footer address {
+   background-color: rgb(222, 128, 60);
+   color: rgba(255, 255, 255, 0.6);
+   font: normal small-caps bold 0.9em/3em Nobile, Verdana, Geneva, sans-serif;
+   text-align: center;
+}
 
 
 /* Heading Styles */
