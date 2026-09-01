@@ -31,13 +31,6 @@ body {
    font-family: Verdana, Geneva, sans-serif;
 }
 
-h1 {
-   font-weight: normal;
-   font-family: Nobile, Verdana, Geneva, sans-serif;
-   letter-spacing: 0.2em;
-   margin: 0px;
-}
-
 body>footer address {
    background-color: rgb(222, 128, 60);
    color: rgba(255, 255, 255, 0.6);
@@ -48,7 +41,19 @@ body>footer address {
 
 /* Heading Styles */
 
+h1 {
+   font-weight: normal;
+   font-family: Nobile, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.2em;
+   margin: 0px;
+}
 
+section#tss_coaches h1 {
+   font-size: 2.5em;
+   color: hsl(27, 82%, 85%);
+   background-color: hsl(27, 6%, 21%);
+   padding: 10px;
+}
 
 /* Blockquote Styles */
 
