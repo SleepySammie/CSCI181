@@ -82,8 +82,19 @@ aside blockquote::after {
 
 /* Navigation Styles */
 
+body > nav {
+   font-size:  0.8em;
+   line-height: 2em;
+}
 
+nav > ul {
+   list-style-type: none;
+   padding: 5px;
+}
 
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
 
 /* Paragraph Styles */
 
