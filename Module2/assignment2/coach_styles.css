@@ -101,6 +101,15 @@ nav>ul>li:nth-of-type(6) {
    margin-top: 20px;
 }
 
+nav>ul>li>a:link, nav > ul> li>a:visited {
+   color: rgb(151, 151, 151);
+   text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav >ul > li > a:active {
+   color: rgb(222, 128, 60)
+}
+
 /* Paragraph Styles */
 
 
