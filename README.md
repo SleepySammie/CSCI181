@@ -1,5 +1,7 @@
 # CSCI181 - Web Design and Programming
 
+Sam Holland
+
 ## Structure
 Each module folder contains that module's assignments,
 one sub folder per assignment.
