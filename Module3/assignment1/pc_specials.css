@@ -58,7 +58,7 @@ div.newRow::after {
 
 div[class^="col-"] {
    float: left;
-   margin-left: 2%;
+   padding: 2%;
    box-sizing: border-box;
 }
 
@@ -104,6 +104,7 @@ div#awardList {
    overflow: auto;
 
 }
+
 div.awards {
    position: absolute;
    width: 30%;
@@ -133,4 +134,5 @@ div#award5 {
    top: 750px;
    left: 5%;
 }
+
 /* Footer Styles */
