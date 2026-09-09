@@ -136,3 +136,7 @@ div#award5 {
 }
 
 /* Footer Styles */
+
+footer {
+   clear: both;
+}
