@@ -1,0 +1,31 @@
+ h1 {
+     color: blue;
+     text-align: center;
+ }
+
+ p {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #intro {
+     font-style: italic;
+     background-color: #f0f0f0;
+ }
+
+ .menu-item {
+     color: darkred;
+     font-size: 20px;
+     border: 1px solid darkred;
+     padding: 8px;
+ }
+
+ .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+ }
+
+ .menu-item.featured {
+    grid-column: span 2;
+    background-color: lightyellow;
+ }
