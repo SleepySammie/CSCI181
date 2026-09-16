@@ -51,6 +51,9 @@ figure {
       border: 25px;
       border-style: solid;
       border-image: url(tb_frame.png) 60 stretch;
+      display: block;
+      width: 100%;
+      filter: sepia(80%);
    }
 }
 
