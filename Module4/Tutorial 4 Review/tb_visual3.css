@@ -55,8 +55,17 @@ figure {
       width: 100%;
       filter: sepia(80%);
    }
+ 
+  figcaption {
+      font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+      font-style: italic;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align: center;
+   }
 }
-
 
 /* Article Styles */
 
