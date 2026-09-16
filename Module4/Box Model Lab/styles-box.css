@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF8EF;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  color: #4A3323;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #D9C7AE;
+}
+
+.card h2 {
+  color: #6F4E37;
+}
+
+.price {
+  font-weight: bold;
+  color: #6F4E37;
+}
+
+.order-btn {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
