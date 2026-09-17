@@ -26,6 +26,13 @@ body {
 .navHorizontal a {
     display: block;
     padding: 15px 25px;
+    width: 100px;
+    margin: 15px;
     color: rgb(250, 249, 248);
+    background-color: rgb(36 41 46);
+    border-radius: 15px;
    
 }
+
+
+
