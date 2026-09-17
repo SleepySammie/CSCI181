@@ -20,6 +20,25 @@ body h1 {
     background-color: rgb(33 38 44);
     border-bottom: solid rgb(32, 36, 42);
 }
+/* Article Styles */
+div.articleBox {
+    display: inline-block;
+    height: 200px;
+    width: 94%;
+    padding: 35px 15px;
+    margin: 10px;
+    margin-top: 25px;
+    background-color: rgb(36 41 46);
+    border: 3px solid rgb(33 38 44);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(33 38 44);
+    box-sizing: border-box;
+}
+
+/* Image Styles */
+
+
+/* InfoBox Styles */
 div.infoBox {
     display: inline-block;
     vertical-align: top;
@@ -37,26 +56,25 @@ div.infoBox {
 }
 
 /* Nav List Styles */
-.navHorizontal li {
-    display: inline-block;
+
+.navHorizontal ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .navHorizontal a {
     box-shadow: 5px 5px 25px rgb(33 38 44);
     display: block;
-    padding: 15px 20px;
-    width: 400px;
-    margin-top: 25px;
+    padding: 15px;
     color: rgb(250, 249, 248);
     background-color: rgb(33 38 44);
-    border: 5px solid rgb(36 41 46);
     border-radius: 5px;
    
 }
 
 .navHorizontal a:hover,
 .navHorizontal a:active {
-    background-color: rgb(36 41 46);
+    background-color: rgb(62, 67, 75);
 }
 
 
