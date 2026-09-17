@@ -18,7 +18,16 @@ h1 {
 .card {
   background-color: white;
   border: 1px solid #D9C7AE;
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 8px 16px rgba(74, 51, 35, 0.2);
 }
+.menu {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 
 .card h2 {
   color: #6F4E37;
@@ -35,4 +44,5 @@ h1 {
   border: none;
   padding: 8px 16px;
   cursor: pointer;
+  border-radius: 999px;
 }
