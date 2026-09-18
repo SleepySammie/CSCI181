@@ -23,6 +23,7 @@ h1 {
 /* Article Styles */
 div.articleBox {
     display: inline-block;
+    text-indent: 30px;
     height: 200px;
     width: 94%;
     padding: 35px 15px;
@@ -33,6 +34,10 @@ div.articleBox {
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgb(33 38 44);
     box-sizing: border-box;
+}
+
+div.articleBox {
+
 }
 
 /* Image Styles */
@@ -57,23 +62,22 @@ div.infoBox {
 
 /* Nav List Styles */
 
-.navHorizontal ul {
+nav.navHorizontal ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.navHorizontal a {
+nav.navHorizontal a {
     box-shadow: 5px 5px 25px rgb(33 38 44);
     display: block;
     padding: 15px;
     color: rgb(250, 249, 248);
     background-color: rgb(33 38 44);
-    border-radius: 5px;
    
 }
 
-.navHorizontal a:hover,
-.navHorizontal a:active {
+nav.navHorizontal a:hover,
+nav.navHorizontal a:active {
     background-color: rgb(62, 67, 75);
 }
 
