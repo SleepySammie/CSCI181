@@ -40,9 +40,9 @@ div.articleBox {
 }
 
 /* Image Styles */
-div.imageBox {
-    margin: 15px;
-    display: block;
+div.bottomBar {
+    margin-top: 25px;
+    box-shadow: -0px -10px 15px rgb(33 38 44);
 }
 
 /* InfoBox Styles */
@@ -70,7 +70,7 @@ nav.navHorizontal ul {
 }
 
 nav.navHorizontal a {
-    box-shadow: 5px 5px 25px rgb(33 38 44);
+    box-shadow: 0px 10px 25px rgb(33 38 44);
     display: block;
     padding: 15px;
     color: rgb(250, 249, 248);
