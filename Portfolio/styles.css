@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-image: url(background.png);
+    background-image: url(background2.png);
 }
 
 /* Body Styles */
@@ -40,7 +40,10 @@ div.articleBox {
 }
 
 /* Image Styles */
-
+div.imageBox {
+    margin: 15px;
+    display: block;
+}
 
 /* InfoBox Styles */
 div.infoBox {
