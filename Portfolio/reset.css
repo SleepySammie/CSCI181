@@ -6,4 +6,5 @@ body, article, div, footer, html, nav, p, img, ul, a, li, h1, ol{
     border: 0;
     line-height: 1; 
     list-style: none;
+    text-decoration: none;
 }
