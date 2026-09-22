@@ -1,0 +1,80 @@
+/* ---------- Mobile-first base styles (apply to ALL screen sizes) ---------- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF8EF;
+  color: #333333;
+  margin: 0;
+  padding: 24px 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #4A3323;
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.menu {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #D9C7AE;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow:
+    0 2px 4px rgba(74, 51, 35, 0.15),
+    0 12px 24px rgba(74, 51, 35, 0.12);
+}
+
+.card h2 {
+  color: #6F4E37;
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #6F4E37;
+}
+
+.order-btn {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* ---------- Enhancements for wider screens (tablets & desktops) ---------- */
+@media (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .tagline {
+    font-size: 18px;
+  }
+
+  .menu {
+    max-width: 480px;
+  }
+
+  .order-btn {
+    width: auto;
+    padding: 10px 20px;
+  }
+}

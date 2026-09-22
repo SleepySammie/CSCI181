@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF8EF;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  color: #4A3323;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.menu {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #D9C7AE;
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow:
+    0 2px 4px rgba(74, 51, 35, 0.15),
+    0 12px 24px rgba(74, 51, 35, 0.12);
+}
+
+.card h2 {
+  color: #6F4E37;
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #6F4E37;
+}
+
+.order-btn {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+}
