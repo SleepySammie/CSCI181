@@ -18,6 +18,12 @@
 
 
 /* Hidden Objects */
+nav,
+body>h1,
+body>footer,
+#left {
+   display: none;
+}
 
 
 
@@ -39,4 +45,3 @@
 
 
 /* Page Break Styles */
-

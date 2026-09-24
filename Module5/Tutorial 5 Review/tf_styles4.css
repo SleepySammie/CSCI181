@@ -31,24 +31,83 @@ body {
    flex-flow: row wrap;
 }
 
-div#left {
+section#left {
    flex-basis: 130px;
    flex-grow: 1;
    flex-shrink: 8;
 }
 
-div#right {
+section#right {
    flex-basis: 351px;
    flex-grow: 8;
    flex-shrink: 1;
 }
 
+.tips {
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+
+.tips>article {
+   flex-basis: 351px;
+   flex-grow: 2;
+   flex-shrink: 1;
+}
+
+.tips>aside {
+   flex-basis: 250px;
+   flex-grow: 1;
+   flex-shrink: 2;
+}
+
+nav.horizontal ul {
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: column wrap;
+   flex-flow: column wrap;
+}
 
 /* ===============================
 	Mobile Devices: 0 to 480px 
    ===============================
 */
-	
+@media (max-width: 480px) {
+   ul.vertical {
+      display: -webkit-flex;
+      display: flex;
+
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+
+      height: 240px;
+   }
+
+   section#left {
+      order: 99;
+   }
+
+   body>footer {
+      order: 99;
+   }
+
+   a#navicon {
+      display: block;
+   }
+
+   nav.horizontal ul {
+      display: none;
+   }
+
+   a#navicon:hover+ul,
+   nav.horizontal ul:hover {
+      display: block;
+   }
+
+}
 
 
 
@@ -57,6 +116,8 @@ div#right {
 	Tablet and Desktop Devices: 481px or more 
    ============================================
 */
-
-
-
+@media (min-width: 481px) {
+   ul {
+      height: 160px;
+   }
+}
