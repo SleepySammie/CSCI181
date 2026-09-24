@@ -28,7 +28,11 @@ body>footer,
 
 
 /* Page Box Styles */
-
+html {
+   width: 8.5in;
+   height: 11in;
+   margin: 0.5in;
+}
 
 
 /* Header Styles */
