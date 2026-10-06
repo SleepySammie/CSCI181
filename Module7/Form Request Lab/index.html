@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="shop-header">
+    <h1>Welcome to the Coffee Shop</h1>
+    <p id="intro">We serve the best coffee in town.</p>
+  </header>
+
+  <div class="menu">
+    <p class="menu-item">Espresso - $3</p>
+    <p class="menu-item">Latte - $4</p>
+    <hr>
+    <p class="menu-item">Cold Brew - $5</p>
+    <div class="specials">
+      <p>Ask about our seasonal specials!</p>
+    </div>
+  </div>
+
+  <table class="menu-table">
+    <caption>Espresso Bar Prices</caption>
+    <thead>
+      <tr>
+        <th>Drink</th>
+        <th>Small</th>
+        <th>Medium</th>
+        <th>Large</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Americano</td><td>$2.75</td><td>$3.25</td><td>$3.75</td></tr>
+      <tr><td>Latte</td><td>$3.50</td><td>$4.25</td><td>$4.75</td></tr>
+      <tr><td>Cappuccino</td><td>$3.50</td><td>$4.25</td><td>$4.75</td></tr>
+      <tr><td>Mocha</td><td>$3.95</td><td>$4.50</td><td>$5.00</td></tr>
+      <tr><td>Chai Latte</td><td>$3.75</td><td>$4.25</td><td>$4.95</td></tr>
+      <tr><td>Cold Brew</td><td>$3.25</td><td>$3.75</td><td>$4.25</td></tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Extra shot $0.75 &middot; Oat or almond milk $0.50</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <section id="order-ahead">
+    <h2>Order Ahead</h2>
+    <p>Skip the line. Order now and pick it up at the counter.</p>
+
+    <form class="order-form" method="get">
+
+      <fieldset>
+        <legend>Your Information</legend>
+        <div class="field">
+          <label for="customer-name">Name</label>
+          <input type="text" id="customer-name"
+                 name="customer_name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email"
+                 placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Drink</legend>
+        <div class="field">
+          <label for="drink">Drink</label>
+          <select id="drink" name="drink">
+            <option value="americano">Americano</option>
+            <option value="latte">Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="mocha">Mocha</option>
+            <option value="chai">Chai Latte</option>
+            <option value="cold-brew">Cold Brew</option>
+          </select>
+        </div>
+
+        <fieldset class="choices">
+          <legend>Size</legend>
+          <label>
+            <input type="radio" name="size" value="small">
+            Small
+          </label>
+          <label>
+            <input type="radio" name="size" value="medium" checked>
+            Medium
+          </label>
+          <label>
+            <input type="radio" name="size" value="large">
+            Large
+          </label>
+        </fieldset>
+
+        <fieldset class="choices">
+          <legend>Extras</legend>
+          <label>
+            <input type="checkbox" name="extras" value="shot">
+            Extra shot
+          </label>
+          <label>
+            <input type="checkbox" name="extras" value="oat">
+            Oat milk
+          </label>
+          <label>
+            <input type="checkbox" name="extras" value="almond">
+            Almond milk
+          </label>
+        </fieldset>
+
+        <div class="field">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity"
+                 value="1" min="1" max="10">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Pickup</legend>
+        <div class="field">
+          <label for="pickup">Pickup time</label>
+          <input type="time" id="pickup" name="pickup" required>
+        </div>
+        <div class="field">
+          <label for="notes">Special instructions</label>
+          <textarea id="notes" name="notes" rows="3"></textarea>
+        </div>
+      </fieldset>
+
+      <button type="submit" id="order-btn">Place Order</button>
+
+    </form>
+  </section>
+
+  <section id="rewards">
+    <h2>Join the Rewards Club</h2>
+    <form class="order-form" method="get">
+      <fieldset>
+        <legend>Sign Up</legend>
+        <div class="field">
+          <label for="rc-email">Email</label>
+          <input type="email" id="rc-email" name="rc_email" required>
+        </div>
+        <div class="field">
+          <label for="rc-month">Birthday month</label>
+          <select id="rc-month" name="rc_month">
+            <option value="">Choose a month</option>
+            <option value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+            <option value="apr">April</option>
+            <option value="may">May</option>
+            <option value="jun">June</option>
+            <option value="jul">July</option>
+            <option value="aug">August</option>
+            <option value="sep">September</option>
+            <option value="oct">October</option>
+            <option value="nov">November</option>
+            <option value="dec">December</option>
+          </select>
+        </div>
+        <label>
+          <input type="checkbox" name="rc_specials" value="yes" checked>
+          Email me weekly specials
+        </label>
+      </fieldset>
+      <button type="submit" class="join-btn">Join</button>
+    </form>
+  </section>
+
+  <p>Open daily from 7am to 6pm.</p>
+
+</body>
+</html>
