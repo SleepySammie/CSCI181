@@ -11,7 +11,7 @@ html {
 body {
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 100%;
     max-width: 960px;
     background-color: rgb(43 49 55);
     color: rgb(250, 249, 248);
@@ -49,7 +49,15 @@ div.bottomBar {
     margin-top: 25px;
     box-shadow: -0px -10px 15px rgb(33 38 44);
 }
-header > img {
+
+div.bottomBar img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+header>img {
     display: block;
     width: 100%;
     height: auto;
@@ -74,7 +82,6 @@ div.infoBox {
 /* Quote Styles */
 div.quoteBox {
     display: inline-block;
-
     text-indent: 30px;
     height: auto;
     width: 94%;
@@ -116,3 +123,71 @@ footer {
     background-color: rgb(33 38 44);
 }
 
+
+
+
+/* Table Styles */
+div.tableBox {
+    width: 94%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: rgb(36 41 46);
+    border: 3px solid rgb(33 38 44);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(33 38 44);
+    box-sizing: border-box;
+}
+
+div.tableBox table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+div.tableBox th,
+div.tableBox td {
+    padding: 12px 8px;
+    text-align: center;
+    border: 1px solid rgb(250, 249, 248)
+}
+
+/* Small screen styles */
+@media screen and (max-width: 320px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    div.articleBox,
+    div.quoteBox,
+    div.tableBox,
+    div.infoBox {
+        display: inline-block;
+        width: 100%;
+        margin: 15px 0;
+        box-sizing: border-box;
+    }
+
+    nav.navHorizontal ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    div.tableBox {
+        padding: 5px;
+    }
+
+    div.tableBox th,
+    div.tableBox td {
+        padding: 6px 2px;
+        font-size: 12px;
+    }
+
+}
