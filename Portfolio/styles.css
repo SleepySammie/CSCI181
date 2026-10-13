@@ -30,7 +30,7 @@ div.articleBox {
     display: inline-block;
 
     text-indent: 30px;
-    height: 200px;
+    height: auto;
     width: 94%;
     padding: 35px 15px;
     margin: 10px;
@@ -48,6 +48,11 @@ div.bottomBar {
     height: auto;
     margin-top: 25px;
     box-shadow: -0px -10px 15px rgb(33 38 44);
+}
+header > img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* InfoBox Styles */
@@ -71,7 +76,7 @@ div.quoteBox {
     display: inline-block;
 
     text-indent: 30px;
-    height: 200px;
+    height: auto;
     width: 94%;
     padding: 35px 15px;
     margin: 10px;
