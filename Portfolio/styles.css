@@ -153,6 +153,21 @@ div.tableBox td {
     border: 1px solid rgb(250, 249, 248)
 }
 
+/* Link Styles */
+div.articleBox > a {
+    box-shadow: 0px 10px 25px rgb(33 38 44);
+    display: block;
+    padding: 15px;
+    color: rgb(250, 249, 248);
+    background-color: rgb(30 35 41);
+
+}
+
+div.articleBox > a:hover,
+div.articleBox > a:active {
+    background-color: rgb(62, 67, 75);
+}
+
 /* Small screen styles */
 @media screen and (max-width: 425px) {
 
