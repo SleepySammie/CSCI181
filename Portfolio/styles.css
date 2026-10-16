@@ -154,7 +154,7 @@ div.tableBox td {
 }
 
 /* Link Styles */
-div.articleBox > a {
+div.articleBox>a {
     box-shadow: 0px 10px 25px rgb(33 38 44);
     display: block;
     padding: 15px;
@@ -163,8 +163,8 @@ div.articleBox > a {
 
 }
 
-div.articleBox > a:hover,
-div.articleBox > a:active {
+div.articleBox>a:hover,
+div.articleBox>a:active {
     background-color: rgb(62, 67, 75);
 }
 
